@@ -18,15 +18,15 @@ public class Esfera {
 
 /**
  * Constructor con parametros
- * @param radio
+ * @param radio el radio de la esfera
  */
 	public Esfera(double radio) {
 		super();
 		this.radio = radio;
 	}
 	/**
-	 * constructor sin parametros
-	 * @return superficie
+	 * Esta función devuelve la superficie de la esfera usando su fórmula
+	 * @return superficie la superficie de la esfera
 	 */
 
 	public double superficie() {
@@ -34,8 +34,8 @@ public class Esfera {
 		return superficie;
 	}
 	/**
-	 * 
-	 * @return volumen 
+	 * Esta función devuelve el volumen de la esfera usando su fórmula
+	 * @return volumen el volumen de la esfera
 	 */
 	
 	public double volumen() {
